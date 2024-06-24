@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Card, Col, Row } from "antd";
 import { FormOutlined, UserOutlined } from "@ant-design/icons";
 
-export default () => {
+export default function Page () {
   return (
     <div>
       <Row gutter={[16, 16]} justify="center">

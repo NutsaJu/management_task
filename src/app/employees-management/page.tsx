@@ -14,7 +14,7 @@ import { ClearOutlined, DeleteOutlined, PlusOutlined } from "@ant-design/icons";
 import dayjs from "dayjs";
 import CreateUpdateMember from "./CreateUpdateMember";
 
-export default () => {
+export default function Page () {
   //
   const [editedMemberId, setEditedMemberId] = useState<number | null>(null);
   //

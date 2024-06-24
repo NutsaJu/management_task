@@ -23,7 +23,7 @@ import dayjs from "dayjs";
 import CreateUpdateTask from "./CreateUpdateTask";
 import { useDebounce } from "use-debounce";
 
-export default () => {
+export default function Page () {
   //
   const [editedTaskId, setEditedTaskId] = useState<number | null>(null);
   //
